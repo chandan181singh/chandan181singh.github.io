@@ -3,7 +3,9 @@
     padding: 0;
 }
 
-
+html{
+    scroll-behavior: smooth;
+}
 body{
 background-color: rgb(145, 231, 217);
 }
@@ -40,7 +42,7 @@ background-color: rgb(145, 231, 217);
     border: 3px solid white;
     border-radius: 15px;
     text-decoration: none;
-    scroll-behavior: smooth;
+   
 }
 
 #navbar ul li a:hover {
@@ -158,6 +160,7 @@ background-color: rgb(145, 231, 217);
     background-color: rgb(7, 7, 242);
     color: white;
     border-radius: 10px;
+
 }
 
 
@@ -175,66 +178,13 @@ background-color: rgb(145, 231, 217);
 
 } */
 
-#agra img {
-    height: 400px;
-    width: 600px;
-    align-items: right;
 
-    margin-bottom: 1%;
-    margin-left: 5%;
-    border-radius: 20px;
-
-}
-
-#agra {
-    display: flex;
-}
-
-#agra h1 {
-    font-size: 3rem;
-    margin-left: 5%;
-    flex-direction: column;
-}
-
-#agra h2 {
-    margin-top: 9%;
-    margin-left: 4%;
-    margin-right: 5%;
-    font-family: 'Neuton', serif;
-}
-
-#ladakh img {
-    height: 400px;
-    width: 600px;
-    align-items: right;
-
-    margin-bottom: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 20px;
-
-}
-
-#ladakh h1 {
-    font-size: 3rem;
-    margin-left: 5%;
-    flex-direction: column;
-}
-
-#ladakh h2 {
-    display: flex;
-    margin-top: 1%;
-    margin-left: 4%;
-    margin-right: 5%;
-    font-family: 'Neuton', serif;
-}
-
-#parvati h1 {
+.monument h1 {
     font-size: 3rem;
     margin-left: 5%;
 }
 
-#parvati img {
+.monument img {
     height: 400px;
     width: 600px;
     align-items: right;
@@ -246,7 +196,7 @@ background-color: rgb(145, 231, 217);
 
 }
 
-#parvati h2 {
+.monument h2 {
     display: flex;
     margin-top: 1%;
     margin-left: 4%;
@@ -254,215 +204,13 @@ background-color: rgb(145, 231, 217);
     font-family: 'Neuton', serif;
 }
 
-#Nainital h1 {
-    font-size: 3rem;
-    margin-left: 5%;
-}
 
-#Nainital h2 img {
-    height: 400px;
-    width: 600px;
-    align-items: right;
-    margin-top: 5px;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 20px;
-
-}
-
-#Nainital h2 {
-   display: flex;
-   
-}
-#Nainital h2 p{
-    margin-top: 1%;
-    margin-left: 4%;
-    margin-right: 3%;
-    font-family: 'Neuton', serif;
-    flex-direction: column;
-}
-#Nainital h2 p img{
+#Nainital span img{
     height: 150px;
     width: 450px;
    
 }
-#Dalhousie h1 {
-    font-size: 3rem;
-    margin-left: 5%;
-}
 
-#Dalhousie img {
-    height: 400px;
-    width: 600px;
-    align-items: right;
-    margin-top: 5px;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 20px;
-
-}
-
-#Dalhousie h2 {
-    display: flex;
-    margin-top: 1%;
-    margin-left: 4%;
-    margin-right: 3%;
-    font-family: 'Neuton', serif;
-}
-
-#Spiti h1 {
-    font-size: 3rem;
-    margin-left: 5%;
-}
-
-#Spiti img {
-    height: 400px;
-    width: 600px;
-    align-items: right;
-    margin-top: 5px;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 20px;
-
-}
-
-#Spiti h2 {
-    display: flex;
-    margin-top: 1%;
-    margin-left: 4%;
-    margin-right: 3%;
-    font-family: 'Neuton', serif;
-}
-
-#Auli img {
-    height: 400px;
-    width: 600px;
-    align-items: right;
-    margin-top: 5px;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 20px;
-
-}
-
-#Auli h1 {
-    font-size: 3rem;
-    margin-left: 5%;
-}
-
-#Auli h2 {
-    display: flex;
-    margin-top: 1%;
-    margin-left: 4%;
-    margin-right: 3%;
-    font-family: 'Neuton', serif;
-}
-
-#Pahalgam img {
-    height: 400px;
-    width: 600px;
-    align-items: right;
-    margin-top: 5px;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 20px;
-
-}
-
-#Pahalgam h1 {
-    font-size: 3rem;
-    margin-left: 5%;
-}
-
-#Pahalgam h2 {
-    display: flex;
-    margin-top: 1%;
-    margin-left: 4%;
-    margin-right: 3%;
-   
-    font-family: 'Neuton', serif;
-}
-
-#Mathura img {
-    height: 400px;
-    width: 600px;
-    align-items: right;
-    margin-top: 5px;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 20px;
-
-}
-
-
-#Mathura h1 {
-    font-size: 3rem;
-    margin-left: 5%;
-}
-
-#Mathura h2 {
-    display: flex;
-    margin-top: 1%;
-    margin-left: 4%;
-    margin-right: 3%;
-    font-family: 'Neuton', serif;
-}
-
-#Haridwar img {
-    height: 400px;
-    width: 600px;
-    align-items: right;
-    margin-top: 5px;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 20px;
-
-}
-
-#Haridwar h1 {
-    font-size: 3rem;
-    margin-left: 5%;
-}
-
-#Haridwar h2 {
-    display: flex;
-    margin-top: 1%;
-    margin-left: 4%;
-    margin-right: 3%;
-    font-family: 'Neuton', serif;
-}
-
-#Mussoorie img {
-    height: 400px;
-    width: 600px;
-    align-items: right;
-    margin-top: 5px;
-    margin-bottom: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 20px;
-
-}
-
-#Mussoorie h1 {
-    font-size: 3rem;
-    margin-left: 5%;
-}
-
-#Mussoorie h2 {
-    display: flex;
-    margin-top: 1%;
-    margin-left: 4%;
-    margin-right: 3%;
-    font-family: 'Neuton', serif;
-}
 
 #team img {
     align-items: center;
@@ -495,12 +243,42 @@ background-color: rgb(145, 231, 217);
     margin-right: 40px;
 
 }
-
-#follow img :hover {
-    background-color: brown;
+#follow li img:hover{
+    padding: 10px 10px;
+    background-color: greenyellow;
 }
+
+
 
 .important {
     font-size: 1.5rem;
     margin-left: 7%;
+}
+.book button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book a{
+    display: block;
+    border: 3px solid black;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(226, 191, 16); 
+    cursor: pointer;
+    text-decoration: none;
+    
+    padding: 10px 10px;
+    font-size: 1.5rem;
+   
+    font-family: 'Neuton', serif;
+    transition-duration: 0.5s;
+   
+    
+}
+.book a:hover{
+   
+    background-color: rgb(14, 153, 21);
+    color: white;
+    border-radius: 10px;
 }
