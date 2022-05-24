@@ -1,3 +1,9 @@
+#navbar{
+    flex-wrap: wrap;
+}
+#pic1{
+    flex-direction: column;
+}
 #pearl{
     flex-direction: column;
 }
@@ -9,4 +15,7 @@
 }
 #welcome h1{
     margin-top: 14%;
+}
+#follow{
+    flex-direction: column;
 }
