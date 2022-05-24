@@ -1,21 +1,79 @@
 #navbar{
     flex-wrap: wrap;
 }
+#navbar ul li{
+   margin: 0px;
+   padding: 2px 0px;
+}
+#navbar ul li a {
+    font-size: 0.85rem;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 #pic1{
     flex-direction: column;
+}
+#pic1 h2{
+    margin-left: 5px;
+    margin-top: 0px;
+}
+#pic1 h2 img{
+    width: 371px;
+}
+#pic1 img{
+    height: 379px;
+    width: 385px;
+    margin: -5px;
 }
 #pearl{
     flex-direction: column;
 }
+#pear h1{
+    font-size: 2rem;
+    text-align: none;
+}
+#pearl img{
+  height: 279px;
+  width: 379px;
+  margin-left: -27px;
+
+}
+#pearl ul{
+    margin-left: -3%;
+    margin-top: -92px;
+}
+.monument h1{
+    font-size: 1.75rem;
+    margin-left: 1%;
+}
 .monument h2{
     flex-direction: column;
+}
+.monument img{
+    height: 258px;
+    width: 388px;
+    margin-left: -4%;
 }
 #welcome{
     flex-direction: column;
 }
 #welcome h1{
     margin-top: 14%;
+    font-size: 2rem;
 }
-#follow{
-    flex-direction: column;
+#welcome img{
+        height: 143px;
+        width: 391px;
+        margin-left: 0px;
 }
+#team img{
+    margin-left: 1%;
+    width: 388px;
+    height: 120px;
+}
+#follow li img{
+    height: 40px;
+    width: 50px;
+    margin-right: 10px;
+}
+
