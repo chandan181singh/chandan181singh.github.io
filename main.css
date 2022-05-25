@@ -317,6 +317,9 @@ background-color: rgb(145, 231, 217);
     border: 2px solid brown;
   }
   
-  .dropdown a:hover {background-color: #ddd;}
+  .dropdown a:hover {
+      background-color: blueviolet;
+      color: white;
+}
   
   .show {display: block;}
