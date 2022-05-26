@@ -1,0 +1,16 @@
+#pic1 h1 img{
+    width: 280px;
+    height: 130px;
+}
+#pic2 h2 img{
+    width: 200px;
+    height: 60px;
+}
+#pic2{
+    flex-direction: column;
+    margin-top: 5%;
+}
+#pic2 img{
+    width: 280px;
+    height: 130px;
+}
