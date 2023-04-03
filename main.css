@@ -16,6 +16,7 @@ background-color: rgb(145, 231, 217);
     margin-bottom: 5%;
     top: 0;
     width: 100%;
+    z-index: 2;
 }
 
 #navbar ul {
